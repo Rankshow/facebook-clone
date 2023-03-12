@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+.image {
+  height: 106px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  height: 50vw;
+  justify-content: space-evenly;
+  background-color: #f0f2f5;
+}
+@media only screen and (max-width: 1075px){
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: #f0f2f5;
+  }
+  .container h2 {
+    margin-bottom: 30px;
+  }
+}
+.form-field {
+  /* border: 1px solid red; */
+  width: 390px;
+  height: 360px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  background-color: #ffffff;
+}
+.form-wrapper {
+  /* border: 1px solid blue; */
+  box-sizing: border-box;
+  margin: 10px 0 0;
+}
+
+.password{
+  margin-top: 20px;
+}
+.form-action{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 17px;
+  padding: 10px 16px;
+  width: 340px;
+}
+/* input style */
+input{
+  border-radius: 10px;
+  padding: 20px;
+  width: 357px;
+  margin: auto;
+  border: 1px solid rgb(192, 186, 186);
+  outline: #3084f1;
+}
+input[type='text']{
+  font-size: 18px;
+}
+::placeholder {
+  font-size: 20px;
+  color: rgb(201, 194, 194);
+  line-height: 20px;
+}
+/* login-btn style */
+.btn-login {
+  text-align: center;
+}
+/* line */
+.line {
+  border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+/* button */
+button {
+  width: 360px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 13px;
+  background-color: #1877f2;
+  line-height: 10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+input:focus{
+  border:1px solid #1877f2;
+}
+/* forget password */
+.link {
+  text-align: center;
+  margin: 20px 0 0;
+}
+.link a {
+  text-decoration: none;
+  color: #1877f2;
+}
+.link:hover{
+  text-decoration: underline;
+  color: #1877f2;
+}
+
+/* create account button */
+.create {
+  width: 200px;
+  font-size: 16px;
+  padding-bottom: 20px;
+  background-color: #42b72a;
+}
+/* text-form */
+.text-form {
+  margin-top: 33px;
+  text-align: center;
+}
+.text-form p span {
+  font-weight: bold;
+}
+.text-form p span:hover{
+  text-decoration: underline;
+}
+.text-form p{
+  color: #1c1e21;
+  font-size: 18px;
+}
+
+/* footer-container */
+.footer-container {
+  padding-top: 25px;
+  text-align: center;
+}
+/* footer-plus-button */
+.footer-plus-button {
+  width: 40px;
+  height: -1px;
+  line-height: 1.1rem;
+}
+.footer-plus-button:hover{
+  background-color:  #e7e4e4;
+  cursor: pointer;
+}
+input[value="+"]{
+  padding-bottom: 4px;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+.footer-details ul li{
+ display: inline-flex;
+ flex-direction: column;
+ margin: 5px;
+}
+.footer-details ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+}
+.footer-items ul li a {
+  color: #737373;
+}
+/* .footer-items ul li a */
+.footer-items ul li a:hover {
+  text-decoration: underline;
+}
+.footer-children {
+  color: #737373;
+  justify-content: center;
+}
+.footer-children ul{
+  place-items: center;
+}
+/* copyright */
+.copyright span {
+  color:  #737373;
+}
+.copyright {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.btn-inline {
+ background-color:  #e2dfdf;
+ width: 30px;
+ height: 20px;
+ text-align: center;
+}
